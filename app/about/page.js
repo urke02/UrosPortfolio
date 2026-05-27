@@ -39,7 +39,7 @@ const technologies = [
 export default function About() {
   return (
     <Fragment>
-      <div className="flex flex-col items-center justify-center">
+      <div className="flex flex-col items-center justify-center mt-12">
         <div className="w-[768px] mt-6">
           <h1 className="text-[24px] leading-[36px] mb-[24px] font-medium">
             About Me
