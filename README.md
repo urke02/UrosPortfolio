@@ -2,6 +2,14 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
+Create a local environment file before running the app:
+
+```bash
+cp .env.example .env.local
+```
+
+Then replace `MONGODB_URI` in `.env.local` with your real MongoDB connection string. The contact form stores messages in the `contacts` collection inside `MONGODB_DB` (`portfolio` by default).
+
 First, run the development server:
 
 ```bash
